@@ -29,7 +29,7 @@ Additionally, it removes some of the extra menu buttons, such as "Add tab to tas
 > - if using `about:profiles`, find your default profile (`Default Profile: yes`), find the Root Directory field and click "Open Folder".
 
 >### 3. Setting up userChrome.css
-> - after step 2, your default file explorer should open to `Firefox/Profiles/___.default-release-___`
+> - after step 2, your default file explorer should open to `Firefox/Profiles/___.default-release-___` (unless you've changed your default profile).
 > - in this directory, create a new folder called `chrome`.
 > - enter the new folder.
 > - now you can copy the [`userChrome.css`](https://github.com/jake05050505/firefox-rounded-ui/blob/main/userChrome.css) file from the github repository, or create a new file called `userChrome.css`, and copy/paste the contents of the [`userChrome.css`](userChrome.css) file into the one you created (The same code can also be found below).
