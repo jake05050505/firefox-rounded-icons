@@ -1,4 +1,10 @@
-# firefox-rounded-icons
+# firefox-rounded-buttons
+
+## Functionality (what does it do?)
+
+This stylesheet rounds most of the firefox menu buttons, including tabs.
+
+Additionally, it removes some of the extra menu buttons, such as "Add tab to taskbar" and "Bookmark this page (Ctrl+D)".
 
 ## Setup
 
@@ -16,7 +22,8 @@
 > - after step 2, your default file explorer should open to `Firefox/Profiles/___.default-release-___`
 > - in this directory, create a new folder called `chrome`.
 > - enter the new folder.
-> - now you can either copy the [`userChrome.css`](https://github.com/jake05050505/firefox-rounded-icons/blob/main/userChrome.css) file from the github repository, or create a new file in `chrome/` called `userChrome.css`, and copy/paste the contents of the [`userChrome.css`](userChrome.css) file into the one you created (The same code can also be found below).
+> - now you can copy the [`userChrome.css`](https://github.com/jake05050505/firefox-rounded-icons/blob/main/userChrome.css) file from the github repository, or create a new file called `userChrome.css`, and copy/paste the contents of the [`userChrome.css`](userChrome.css) file into the one you created (The same code can also be found below).
+> - If you know how, you are free to customize the styling in any way you'd like, add/remove styling rules, etc.
 
 ```
 #back-button > .toolbarbutton-icon,
