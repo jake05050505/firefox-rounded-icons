@@ -1,33 +1,36 @@
+/* upper-left buttons */
 #back-button > .toolbarbutton-icon,
 #forward-button > .toolbarbutton-icon,
 #reload-button > .toolbarbutton-icon,
 #stop-button > .toolbarbutton-icon,
+.toolbarbutton-badge-stack, /* sidebar button */
 
-.toolbarbutton-badge-stack,
+/* address box buttons */
 .identity-box-button,
 #tracking-protection-icon-container,
-#urlbar-searchmode-switcher {
-    border-radius: 9999px !important;
-}
+#urlbar-searchmode-switcher,
 
-.button-background {
-    border-radius: 9999px !important;
-}
+/* other buttons */
+.button-background, 
 
+/* tabs & newtab styling */
 .tab-background,
 #tabs-newtab-button,
-#tabs-newtab-button > .toolbarbutton-icon {
-    border-radius: 20px !important;
+#tabs-newtab-button > .toolbarbutton-icon /* Without this selector, the new-tab button doesn't work with horizontal tabs. (a0ed743) */ {
+    border-radius: 9999px !important;
 }
 
-#unified-extensions-button > .toolbarbutton-icon {
-    border-radius: 11px !important;
-}
-
+/* the address-bar */
 .urlbar-background {
     border-radius: 20px !important;
 }
 
+/* extensions button styling (the svg gets cut off if the border-radius is too large) */
+#unified-extensions-button > .toolbarbutton-icon {
+    border-radius: 11px !important;
+}
+
+/* hides the "Add tab to taskbar" and "bookmark tab" buttons */
 .urlbar-page-action {
     visibility: hidden !important;
 }
