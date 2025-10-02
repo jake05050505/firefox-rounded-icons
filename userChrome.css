@@ -15,7 +15,8 @@
 }
 
 .tab-background,
-#tabs-newtab-button {
+#tabs-newtab-button,
+#tabs-newtab-button > .toolbarbutton-icon {
     border-radius: 20px !important;
 }
 
