@@ -3,20 +3,20 @@
 ## Setup
 
 >### 1. Allow stylesheets to be rendered by firefox
-> - type `about:config`, Click Accept if prompted.
+> - type `about:config`, click "Accept" if prompted.
 > - find `toolkit.legacyUserProfileCustomizations.stylesheets` using the searchbox.
 > - toggle the setting above either by double clicking it, or clicking the toggle button to its right.
 
 >### 2. Finding your firefox profile folder
 > - type `about:support` into your address bar. Alternatively, you can enter `about:profiles`.
-> - If using `about:support`, look for the heading "Application Basics", scroll down until you see the field "Profile Folder". Click the "Open Folder" button.
-> - If using `about:profiles`, find your default profile (`Default Profile: yes`), find the Root Directory field and click "Open Folder".
+> - if using `about:support`, look for the heading "Application Basics", scroll down until you see the field "Profile Folder", click the "Open Folder" button.
+> - if using `about:profiles`, find your default profile (`Default Profile: yes`), find the Root Directory field and click "Open Folder".
 
 >### 3. Setting up userChrome.css
-> - After step 2, your default file explorer should open to `Firefox/Profiles/___.default-release-___`
-> - In this directory, create a new folder called `chrome`.
-> - Enter the new folder.
-> - Now you can either copy the [`userChrome.css`](https://github.com/jake05050505/firefox-rounded-icons/blob/main/userChrome.css) file from this repository, or create a new file in `chrome/` called `userChrome.css`, and copy/paste the contents of the [`userChrome.css`](userChrome.css) file from this repository (The same code can also be found below).
+> - after step 2, your default file explorer should open to `Firefox/Profiles/___.default-release-___`
+> - in this directory, create a new folder called `chrome`.
+> - enter the new folder.
+> - now you can either copy the [`userChrome.css`](https://github.com/jake05050505/firefox-rounded-icons/blob/main/userChrome.css) file from the github repository, or create a new file in `chrome/` called `userChrome.css`, and copy/paste the contents of the [`userChrome.css`](userChrome.css) file into the one you created (The same code can also be found below).
 
 ```
 #back-button > .toolbarbutton-icon,
