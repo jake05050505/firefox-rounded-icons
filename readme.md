@@ -6,6 +6,16 @@ This stylesheet rounds most of the firefox menu buttons, including tabs.
 
 Additionally, it removes some of the extra menu buttons, such as "Add tab to taskbar" and "Bookmark this page (Ctrl+D)".
 
+## Screenshots
+
+![](screenshots/addr_bar.png) ![](screenshots/right-buttons.png)
+
+![](screenshots/full.png)
+
+![](screenshots/tabs.png)
+
+
+
 ## Setup
 
 >### 1. Allow stylesheets to be rendered by firefox
