@@ -1,0 +1,32 @@
+#back-button > .toolbarbutton-icon,
+#forward-button > .toolbarbutton-icon,
+#reload-button > .toolbarbutton-icon,
+#stop-button > .toolbarbutton-icon,
+
+.toolbarbutton-badge-stack,
+.identity-box-button,
+#tracking-protection-icon-container,
+#urlbar-searchmode-switcher {
+    border-radius: 9999px !important;
+}
+
+.button-background {
+    border-radius: 9999px !important;
+}
+
+.tab-background,
+#tabs-newtab-button {
+    border-radius: 20px !important;
+}
+
+#unified-extensions-button > .toolbarbutton-icon {
+    border-radius: 11px !important;
+}
+
+.urlbar-background {
+    border-radius: 20px !important;
+}
+
+.urlbar-page-action {
+    visibility: hidden !important;
+}
